@@ -1,6 +1,8 @@
 call plug#begin()
 "Colocar os plugins aqui"
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 colorscheme dracula
