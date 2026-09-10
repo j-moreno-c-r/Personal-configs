@@ -42,6 +42,7 @@
         libfido2
         yubikey-manager
         claude-code
+        codex
       ];
 
       environment.variables = {
