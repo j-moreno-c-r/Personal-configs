@@ -30,8 +30,7 @@ opacity = 0.95
 padding.x = 10
 padding.y = 10
 dynamic_padding = true
-decorations = "Full"
-
+decorations = "Full" 
 [window.dimensions]
 columns = 120
 lines = 36
@@ -91,4 +90,11 @@ color = "#fe4450"
 bindings = [
   { key = "L", mods = "Command", chars = "\u000c" },
   { key = "L", mods = "Command", action = "ClearHistory" },
+  { key = "Tab", mods = "Control", action = "SelectNextTab" },
+  { key = "Tab", mods = "Control|Shift", action = "SelectPreviousTab" },
 ]
+
+#[keyboard.bindings]#
+#key = "Return"
+#mods = "Shift"
+#chars = "\u001B\r"
